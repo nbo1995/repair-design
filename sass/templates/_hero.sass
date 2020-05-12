@@ -20,14 +20,18 @@
     position: relative
     max-width: 47.85rem
     margin-left: 4.28rem
+  &__title
+    margin-bottom: 1rem
   &__text
-    font-family: 'FuturaBookC'
     font-size: 1.57rem
+    line-height: 131%
     max-width: 504px
-    margin-top: 19px
-    margin-bottom: 41px
+    margin: 0
+    margin-bottom: 3rem
   &__button
     margin-right: 20px
+    width: 207px
+    height: 51px
   &__instagram
     position: absolute
     left: 0
@@ -35,14 +39,13 @@
     max-width: 80px
     height: 100%
   &__scroll-down
+    font-family: 'Yeseva One', cursive;
     position: absolute
     display: flex
     justify-content: center
     align-items: center
     left: 0
     bottom: 0
-    min-width: 17.6rem
-    min-height: 6.92rem
     background-color: $dark
     text-transform: uppercase
     color: $light
@@ -69,16 +72,21 @@
     color: $primary
     transform: rotate(90deg)
     line-height: 0.8
+    font-size: 1.1rem
     &:after
       content: ''
       width: 50px
       height: 1px
       background-color: $primary
       margin-left: 8px
+.scroll-down
+  min-width: 17.6rem
+  min-height: 6.92rem
 .title
   margin: 0
   font-family: 'Yeseva One', cursive;
   text-transform: uppercase
   font-size: 2.857rem
+  line-height: 1.4
   &--primary
     color: $primary
