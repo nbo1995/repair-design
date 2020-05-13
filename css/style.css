@@ -508,8 +508,11 @@ img {
   .title--primary {
     color: #E3B873; }
 
-.types__section-title {
-  margin-bottom: 2rem; }
+.types {
+  margin-top: 10.14rem;
+  margin-bottom: 8.86rem; }
+  .types__section-title {
+    margin-bottom: 2rem; }
 
 .row {
   display: flex;
