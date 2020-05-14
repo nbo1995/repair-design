@@ -338,6 +338,28 @@ template {
     background-color: transparent;
     color: #ffffff; }
 
+.label--light {
+  font-size: 1.07rem;
+  color: rgba(255, 255, 255, 0.5); }
+
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  font-size: 1.285rem;
+  color: #ffffff;
+  padding: 0.5rem 0; }
+  .input::-webkit-input-placeholder {
+    color: #ffffff; }
+  .input::-moz-placeholder {
+    color: #ffffff; }
+  .input:-ms-input-placeholder {
+    color: #ffffff; }
+  .input::-ms-input-placeholder {
+    color: #ffffff; }
+  .input::placeholder {
+    color: #ffffff; }
+
 .container {
   width: 85%;
   max-width: 1256px;
