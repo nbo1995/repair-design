@@ -726,7 +726,7 @@ img {
     margin: auto;
     margin-top: -20rem;
     padding: 2.5rem;
-    margin-bottom: 3.714rem; }
+    margin-bottom: 3.715rem; }
   .footer__title {
     text-transform: uppercase;
     font-family: 'Yeseva One', cursive;
@@ -760,6 +760,40 @@ img {
   .footer__menu {
     background-color: #131313;
     padding: 4.285rem 0; }
+  .footer__map {
+    margin-bottom: 4rem;
+    min-height: 465px; }
+    .footer__map-title {
+      font-family: 'Yeseva One', cursive;
+      font-weight: normal;
+      font-size: 1.4285rem;
+      line-height: 2rem;
+      text-align: center;
+      text-transform: uppercase;
+      color: #E3B873;
+      max-width: 42.0714rem;
+      margin: auto;
+      margin-bottom: 1.8571rem; }
+  .footer__social-network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.0921rem; }
+    .footer__social-network--email {
+      content: '';
+      background: url("../img/email-footer.svg") no-repeat center;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background-color: #E3B873;
+      margin-right: 15px; }
+    .footer__social-network--instagram {
+      content: '';
+      background: url("../img/instagram-footer.svg") no-repeat center;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background-color: #E3B873; }
 
 .types {
   margin-top: 10.14rem;

@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=f74f5a83-df89-45aa-9935-3217490ee7aa&lang=ru_RU"
+    type="text/javascript">
+  </script>
 </head>
 <body>
 
@@ -17,7 +20,7 @@
   <header class="header">
     <div class="container">
       <div class="menu">
-        <div class="logo menu__logo wow animate__animated animate__fadeInLeft">Repair Design Project</div>
+        <div class="logo menu__logo">Repair Design Project</div>
         <nav class="nav menu__nav">
           <a href="#" class="nav__item nav--active">Главная</a>
           <a href="#" class="nav__item">Проекты</a>
@@ -26,7 +29,7 @@
           <a href="#" class="nav__item">Отзывы</a>
           <a href="#" class="nav__item">Контакты</a>
         </nav>
-        <div class="contacts menu__contacts wow animate__animated animate__fadeInRight">
+        <div class="contacts menu__contacts">
           <a href="tel:+79997683299" class="phone contacts__phone">+7 (999) 768-32-99</a>
           <button class="button contacts__button button--primary" data-toggle="modal">Заказать звонок</button>
         </div>
@@ -413,6 +416,20 @@
         </form>
       </div>
       <!-- /.footer-wrap -->
+      <h1 class="map-title footer__map-title">Ростов на дону, Торговый центр Plaza
+        Прямой телефон +7 (999) 768 32 99</h1>
+      <!-- /.map-title footer__map-title -->
+      <div class="footer__social-network">
+        <a href="#" class="footer__social-network--email"></a>
+        <a href="#" class="footer__social-network--instagram"></a>
+      </div>
+      <!-- /.social-network footer__social-network -->
+      <div class="map footer__map" id="map">
+        <!-- <script type="text/javascript" charset="utf-8" async
+          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A278b1097e7f434b4e623496b0899715fc27680c1ff0b672bc0b20c430b06f0f0&amp;width=100%25&amp;height=465&amp;lang=ru_RU&amp;scroll=false">
+        </script> -->
+      </div>
+      <!-- /.map -->
     </div>
     <!-- /.container -->
     <div class="footer__menu">
