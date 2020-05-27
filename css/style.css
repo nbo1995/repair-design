@@ -406,6 +406,7 @@ html {
   font-size: 14px; }
 
 body {
+  background: url("../img/main-bg.png") repeat-y center;
   font-family: 'FuturaBookC', sans-serif;
   font-size: 1rem; }
 
@@ -415,6 +416,7 @@ img {
 .section {
   padding: 60px 0; }
   .section--dark {
+    background: url("../img/main-bg.png") no-repeat center;
     background-color: #131313;
     color: #ffffff; }
   .section-title {
@@ -713,15 +715,82 @@ img {
   margin: auto;
   cursor: pointer; }
 
-.design {
+.customers {
+  position: relative;
   padding-bottom: 30rem; }
-  .design__section-title {
+  .customers__section-title {
     margin-bottom: 2.78rem; }
+  .customers__text {
+    font-family: 'FuturaDemiC', sans-serif;
+    font-weight: normal;
+    font-size: 1.4285rem;
+    line-height: 1.9286rem;
+    width: 25.7142rem;
+    margin: auto;
+    margin-top: 1.735rem;
+    margin-bottom: 2.7764rem; }
+  .customers-card {
+    width: 26.8571rem;
+    min-height: 30.5714rem;
+    background: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04); }
+    .customers-card__box {
+      margin-top: 1.7142rem;
+      margin-right: 2.28rem;
+      margin-left: 1.4285rem; }
+    .customers-card__name {
+      font-family: 'Yeseva One', cursive;
+      font-size: 1.2857rem;
+      line-height: 1.6335rem;
+      margin-left: 1.6428rem; }
+    .customers-card__text {
+      font-size: 1.0714rem;
+      line-height: 1.9286rem;
+      color: #959595;
+      margin-top: 1.5714rem;
+      text-align: left; }
+
+.avatar {
+  display: flex;
+  text-align: left; }
+
+.performance {
+  position: absolute;
+  margin-top: 18px;
+  margin-left: -20px;
+  max-width: 20.9821rem;
+  height: 3.8593rem;
+  background-color: #ffffff;
+  display: flex; }
+  .performance__text {
+    padding-left: 1.0993rem;
+    width: 100%;
+    text-align: left; }
+
+.square, .times {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E3B873;
+  font-family: 'Yeseva One', cursive;
+  font-size: 1.2143rem;
+  color: #ffffff; }
+
+.square {
+  padding-left: 1.24rem;
+  width: 9.6493rem; }
+
+.times {
+  padding-left: 1.2329rem;
+  margin-left: 1px;
+  width: 11.3328rem; }
 
 .footer {
   background: #131313 url("../img/footer-bg.jpg") no-repeat center/cover;
   padding-top: 3rem; }
   .footer__wrap {
+    background: url("../img/main-bg.png") no-repeat center;
     background-color: #181818;
     max-width: 63.07rem;
     margin: auto;
@@ -795,6 +864,10 @@ img {
       height: 2rem;
       border-radius: 50%;
       background-color: #E3B873; }
+
+.map {
+  display: flex;
+  justify-content: center; }
 
 .types {
   margin-top: 10.14rem;
