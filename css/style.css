@@ -693,6 +693,7 @@ img {
 
 .video__control {
   display: flex;
+  justify-content: center;
   margin: auto;
   margin-bottom: 4.428rem;
   position: relative;
@@ -709,7 +710,8 @@ img {
 
 .video__play {
   position: relative;
-  margin: auto; }
+  margin: auto;
+  cursor: pointer; }
 
 .design {
   padding-bottom: 30rem; }
