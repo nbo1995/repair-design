@@ -715,6 +715,16 @@ img {
   margin: auto;
   cursor: pointer; }
 
+.design {
+  margin-top: 10.14rem;
+  margin-bottom: 8.86rem; }
+  .design__section-title {
+    margin-bottom: 2rem; }
+  .design-text {
+    padding-top: 1.6993rem;
+    margin: auto;
+    max-width: 52.9286rem; }
+
 .customers {
   position: relative;
   padding-bottom: 30rem; }
@@ -902,12 +912,13 @@ img {
   position: absolute;
   left: 0;
   bottom: -1.79rem;
+  width: 16.2857rem;
   font-size: 1.29rem;
   font-family: 'Yeseva One', cursive;
   text-transform: uppercase;
   background-color: #E3B873;
   color: #ffffff;
-  padding: 1.214rem 2.6rem; }
+  padding: 1.214rem 0rem 1.214rem 2.3571rem; }
 
 .modal {
   opacity: 0;
